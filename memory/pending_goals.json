@@ -1,0 +1,10 @@
+[
+  {
+    "id": "goal_001",
+    "description": "Add basic Flask server stub",
+    "filename": "webui/server.py",
+    "prompt": "Create a minimal Flask app.",
+    "dependencies": [],
+    "status": "pending"
+  }
+]

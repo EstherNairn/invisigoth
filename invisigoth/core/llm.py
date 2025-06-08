@@ -1,5 +1,6 @@
-from core.providers.openrouter import OpenRouterClient
-from core.providers.mock import MockClient
+from invisigoth.core.providers.openrouter import OpenRouterClient
+
+from invisigoth.core.providers.mock import MockClient
 
 class LLMClient:
     def __init__(self, provider: str = "openrouter", config: dict = None):

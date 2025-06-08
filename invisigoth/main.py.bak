@@ -1,0 +1,8 @@
+from mymodule.core.engine import greet
+
+def main():
+    result = greet("Invisigoth")
+    print(result)
+
+if __name__ == "__main__":
+    main()

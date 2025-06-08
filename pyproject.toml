@@ -1,0 +1,14 @@
+[project]
+name = "invisigoth"
+version = "0.1.0"
+description = "Python macOS template with submodules"
+dependencies = [ "rich", "pyyaml",]
+[[project.authors]]
+name = "You"
+
+[build-system]
+requires = [ "setuptools",]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+dev = [ "pytest",]

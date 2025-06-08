@@ -1,6 +1,10 @@
+#!/usr/bin/env python3
+
 import logging
 import json
-from core import planner, executor, context_builder, generator
+
+from invisigoth.core import planner, executor, context_builder, generator, llm
+from invisigoth import version_control
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 

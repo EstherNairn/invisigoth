@@ -2,7 +2,7 @@ import os
 import json
 import time
 import yaml
-from core.llm import LLMClient
+from invisigoth.core.llm import LLMClient
 
 MASTER_PROMPT_FILE = os.path.join("memory", "master_prompt.txt")
 CONFIG_FILE = os.path.join("config.yaml")

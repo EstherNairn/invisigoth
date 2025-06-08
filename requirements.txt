@@ -1,4 +1,0 @@
-Flask
-flake8
-PyYAML
-pytest

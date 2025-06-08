@@ -1,5 +1,7 @@
-from git_ops import commit_change
-from llm import call_llm
+from ..version_control import commit_changes
+
+from invisigoth.core.llm import call_llm
+
 import subprocess
 
 def execute(goal):
